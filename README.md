@@ -4,8 +4,6 @@
 
 It systematically scans every IPv4 address in every /24 network block—from `1.0.0.0` to `254.255.255.0`—targeting the `.1` and `.254` addresses (typically routers, firewalls, and gateways) on a configurable set of ports.
 
-This is not a toy. This is **DOOMSDAY**.
-
 ---
 
 ## ⚡ Features
