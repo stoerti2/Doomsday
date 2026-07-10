@@ -71,7 +71,7 @@ chmod +x genDB.py scanner.py
 Step 1: Generate the Databases
 Before scanning, you must generate the SQLite databases that contain all target IPs and ports.
 
-bash
+
 python3 genDB.py
 What this does:
 
@@ -93,8 +93,12 @@ If you only want to scan public IPs, delete the following directories:
 
 bash
 rm -rf scan_dbs/010/   # 10.0.0.0/8
+
 rm -rf scan_dbs/172/   # 172.16.0.0/12
+
 rm -rf scan_dbs/192/   # 192.168.0.0/16
+
+
 Step 3: Start the Scanner
 bash
 python3 scanner.py
@@ -117,11 +121,9 @@ If you want to keep previous results, rename or back them up before running.
 📊 Output Format
 offene_ports.txt contains one open port per line in the format:
 
-text
 IP_ADDRESS:PORT
 Example:
 
-text
 192.168.1.1:80
 
 192.168.1.1:443
