@@ -2,7 +2,8 @@
 
 ## 👨‍💻 About the Author
 
-This project was built by an experienced IT professional with decades of hands-on work in network security, infrastructure, and software development. 
+This project was built by an experienced IT professional with decades of hands-on work in network security, 
+infrastructure, and software development. 
 At 55, I am actively seeking new opportunities—whether as a full-time employee, freelancer, or project collaborator. 
 If you value experience, deep technical knowledge, and a no-nonsense approach to problem-solving, let's connect.
 
@@ -12,7 +13,8 @@ If you value experience, deep technical knowledge, and a no-nonsense approach to
 
 **DOOMSDAY** is a powerful, no-nonsense network scanner for huge networks.
 
-It systematically scans every IPv4 address in every /24 network block—from `1.0.0.0` to `254.255.255.0`—targeting the `.1` and `.254` addresses 
+It systematically scans every IPv4 address in every /24 network block—from `1.0.0.0` to 
+`254.255.255.0`—targeting the `.1` and `.254` addresses 
 (typically routers, firewalls, and gateways) on a configurable set of ports.
 
 ---
@@ -87,7 +89,8 @@ python
 # Default ports (you can add or remove any TCP port)
 PORTS = [21, 22, 23, 80, 443, 8080, 8443, 2222, 3389, 5900, 3306, 1433, 8069, 9090]
 Step 2: (Optional) Remove Private Networks
-The generator includes all IPv4 space, including private ranges. If you only want to scan public IPs, delete the following directories:
+The generator includes all IPv4 space, including private ranges.
+If you only want to scan public IPs, delete the following directories:
 
 bash
 rm -rf scan_dbs/010/   # 10.0.0.0/8
@@ -108,7 +111,8 @@ Deletes scanned entries from the database to avoid duplicates.
 
 Deletes empty databases automatically.
 
-⚠️ Important: The output file offene_ports.txt is truncated (emptied) every time the scanner starts.
+⚠️ Important: The output file offene_ports.txt is truncated (emptied)
+every time the scanner starts.
 If you want to keep previous results, rename or back them up before running.
 
 📊 Output Format
@@ -123,6 +127,7 @@ text
 192.168.1.1:443
 10.0.0.1:22
 8.8.8.8:53
+
 🔧 Configuration Options
 Variable	Description	Default
 PORTS	List of TCP ports to scan	See genDB.py
