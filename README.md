@@ -63,7 +63,7 @@ doomsday/
 
 ### Clone & Setup
 
-git clone https://github.com/yourusername/doomsday.git
+git clone https://github.com/stoerti2/doomsday.git
 cd doomsday
 chmod +x genDB.py scanner.py
 
