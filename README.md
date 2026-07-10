@@ -96,11 +96,11 @@ The generator includes all IPv4 space, including private ranges.
 
 If you only want to scan public IPs, delete the following directories:
 
-rm -rf scan_dbs/010/   # 10.0.0.0/8
+rm -rf scan_dbs/010/     # 10.0.0.0/8
 
-rm -rf scan_dbs/172/   # 172.16.0.0/12
+rm -rf scan_dbs/172/16   # 172.16.0.0/12
 
-rm -rf scan_dbs/192/   # 192.168.0.0/16
+rm -rf scan_dbs/192/168  # 192.168.0.0/16
 
 
 Step 3: Start the Scanner
