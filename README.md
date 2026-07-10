@@ -2,14 +2,18 @@
 
 ## 👨‍💻 About the Author
 
-This project was built by an experienced IT professional with decades of hands-on work in network security, infrastructure, and software development. At 55, I am actively seeking new opportunities—whether as a full-time employee, freelancer, or project collaborator. If you value experience, deep technical knowledge, and a no-nonsense approach to problem-solving, let's connect.
+This project was built by an experienced IT professional with decades of hands-on work in network security, infrastructure, and software development. 
+At 55, I am actively seeking new opportunities—whether as a full-time employee, freelancer, or project collaborator. 
+If you value experience, deep technical knowledge, and a no-nonsense approach to problem-solving, let's connect.
 
 📫 I am open to job offers worldwide.  
 ✉️ **Contact**: [klaus@schloss-buskow.de]
 
+
 **DOOMSDAY** is a powerful, no-nonsense network scanner for huge networks.
 
-It systematically scans every IPv4 address in every /24 network block—from `1.0.0.0` to `254.255.255.0`—targeting the `.1` and `.254` addresses (typically routers, firewalls, and gateways) on a configurable set of ports.
+It systematically scans every IPv4 address in every /24 network block—from `1.0.0.0` to `254.255.255.0`—targeting the `.1` and `.254` addresses 
+(typically routers, firewalls, and gateways) on a configurable set of ports.
 
 ---
 
@@ -104,7 +108,8 @@ Deletes scanned entries from the database to avoid duplicates.
 
 Deletes empty databases automatically.
 
-⚠️ Important: The output file offene_ports.txt is truncated (emptied) every time the scanner starts. If you want to keep previous results, rename or back them up before running.
+⚠️ Important: The output file offene_ports.txt is truncated (emptied) every time the scanner starts.
+If you want to keep previous results, rename or back them up before running.
 
 📊 Output Format
 offene_ports.txt contains one open port per line in the format:
@@ -156,7 +161,9 @@ System administrators checking for exposed services.
 
 Educational purposes only.
 
-Do not use this tool against systems you do not own or have explicit permission to test. Unauthorized scanning is illegal in many jurisdictions and may be considered a hostile act. The author assumes no responsibility for misuse.
+Do not use this tool against systems you do not own or have explicit permission to test.
+Unauthorized scanning is illegal in many jurisdictions and may be considered a hostile act.
+The author assumes no responsibility for misuse.
 
 📜 License
 MIT License - Use at your own risk.
