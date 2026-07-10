@@ -21,7 +21,7 @@ It systematically scans every IPv4 address in every /24 network block—from `1.
 
 ## ⚡ Features
 
-- **Full Internet Coverage**: Scans all public IPv4 /24 networks (`.1` and `.254` only).
+- **Full Internet Coverage**: Scans all public IPv4 /24 networks (`.1` and `.254` only as configured in genDB.py).
 - **Configurable Ports**: Edit the port list directly in `genDB.py` to target any TCP services.
 - **SQLite-Powered**: Uses a lightweight, sharded database architecture for maximum efficiency.
 - **Randomized Scanning**: Scans networks and IPs in random order to avoid detection and ensure fair coverage.
