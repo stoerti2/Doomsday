@@ -64,7 +64,9 @@ doomsday/
 ### Clone & Setup
 
 git clone https://github.com/stoerti2/doomsday.git
+
 cd doomsday
+
 chmod +x genDB.py scanner.py
 
 🛠️ Usage
@@ -87,11 +89,13 @@ Edit the PORTS list in genDB.py to change which ports are scanned:
 python
 # Default ports (you can add or remove any TCP port)
 PORTS = [21, 22, 23, 80, 443, 8080, 8443, 2222, 3389, 5900, 3306, 1433, 8069, 9090]
+
 Step 2: (Optional) Remove Private Networks
+
 The generator includes all IPv4 space, including private ranges.
+
 If you only want to scan public IPs, delete the following directories:
 
-bash
 rm -rf scan_dbs/010/   # 10.0.0.0/8
 
 rm -rf scan_dbs/172/   # 172.16.0.0/12
@@ -133,14 +137,22 @@ Example:
 8.8.8.8:53
 
 🔧 Configuration Options
+
 Variable	Description	Default
+
 PORTS	List of TCP ports to scan	See genDB.py
+
 MAX_WORKERS	Number of concurrent threads	200
+
 BATCH_SIZE	Entries to read per database	100
+
 TIMEOUT	Connection timeout in seconds	1.0
+
 These can be adjusted at the top of scanner.py.
 
+
 🧠 How It Works
+
 Database Generation (genDB.py)
 
 Iterates over all /24 networks (1.0.0.0/24 to 254.255.255.0/24).
@@ -162,6 +174,7 @@ On success, appends the result to offene_ports.txt.
 Deletes scanned entries and removes empty databases.
 
 ⚠️ Disclaimer
+
 DOOMSDAY is a powerful tool intended for:
 
 Security researchers auditing their own networks.
@@ -175,6 +188,7 @@ Unauthorized scanning is illegal in many jurisdictions and may be considered a h
 The author assumes no responsibility for misuse.
 
 📜 License
+
 MIT License - Use at your own risk.
 
 🙏 Contributing
