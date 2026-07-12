@@ -1,6 +1,55 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+# =============================================================================
+# MIT License
+# =============================================================================
+#
+# Copyright (c) 2026 Klaus Baumdick
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# =============================================================================
+# DISCLAIMER OF WARRANTY / USE AT YOUR OWN RISK
+# =============================================================================
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+#
+# =============================================================================
+# ADDITIONAL DISCLAIMER FOR CYBERSECURITY / OFFENSIVE TOOLS
+# =============================================================================
+#
+# THIS SCRIPT IS INTENDED FOR LEGITIMATE SECURITY TESTING, EDUCATIONAL PURPOSES,
+# AND AUTHORIZED PENETRATION TESTING ONLY.
+#
+# THE USER ASSUMES FULL RESPONSIBILITY FOR ANY AND ALL CONSEQUENCES RESULTING
+# FROM THE USE OF THIS SCRIPT. THIS INCLUDES, BUT IS NOT LIMITED TO:
+#   - LEGAL LIABILITY
+#   - CIVIL OR CRIMINAL PROSECUTION
+#   - DAMAGE TO SYSTEMS OR DATA
+#   - VIOLATION OF LOCAL, NATIONAL, OR INTERNATIONAL LAWS
+#
+# BY USING THIS SCRIPT, YOU AGREE THAT YOU ARE SOLELY RESPONSIBLE FOR ENSURING
+# THAT YOUR USE COMPLIES WITH ALL APPLICABLE LAWS AND REGULATIONS IN YOUR
+# JURISDICTION. THE AUTHOR(S) AND COPYRIGHT HOLDER(S) ACCEPT NO RESPONSIBILITY
+# OR LIABILITY FOR ANY MISUSE, ILLEGAL ACTIVITIES, OR DAMAGES CAUSED BY THIS
+# SOFTWARE.
+#
+# YOU HAVE BEEN WARNED. USE THIS SCRIPT AT YOUR OWN RISK.
+# =============================================================================
 import os
 import sys
 import socket
