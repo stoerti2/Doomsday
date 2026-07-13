@@ -191,6 +191,99 @@ The author assumes no responsibility for misuse.
 
 MIT License - Use at your own risk.
 
+---
+```text
+#┌────────────────────────────────────────────────────────────────────────┐
+#│                                                                        │
+#│         ███████╗████████╗ ██████╗ ███████╗██████╗ ████████╗██╗         │
+#│         ██╔════╝╚══██╔══╝██╔═══██╗██╔════╝██╔══██╗╚══██╔══╝██║         │
+#│         ███████╗   ██║   ██║   ██║█████╗  ██████╔╝   ██║   ██║         │
+#│         ╚════██║   ██║   ██║   ██║██╔══╝  ██╔══██╗   ██║   ██║         │
+#│         ███████║   ██║   ╚██████╔╝███████╗██║  ██║   ██║   ██║         │
+#│         ╚══════╝   ╚═╝    ╚═════╝ ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝         │
+#│                                                                        │
+#│                       "old school, still root"                         │
+#│                    "stoerti - the jobless hacker"                      │
+#│                                                                        │
+#│    ┌──────────────────────────────────────────────────────────────┐    │
+#│    │  40 years in the trenches.     │  6 months unemployed in DE. │    │
+#│    │  They fired the one who knew.  │  This is my legacy.         │    │
+#│    │                   -- no patches for reality --               │    │
+#│    └──────────────────────────────────────────────────────────────┘    │
+#│                                                                        │
+#└────────────────────────────────────────────────────────────────────────┘
+```
+## This is Grindware
+
+What is Grindware?
+
+Grindware is software that exists because nobody pays me to build the things that actually matter.
+
+I've been unemployed for six months. Not because I can't code – but because the market doesn't care about skills anymore. It cares about buzzwords, certificates, and who you know. 
+So instead of waiting for a job that never comes, I build.
+
+Grindware is the result of that.
+
+### The Philosophy Grindware is:
+
+Built out of necessity – not for profit, not for investors, not for a product roadmap. Built because something needed to exist and nobody else was going to build it.
+
+Released for free – because locking code behind a paywall feels wrong when you know what it's like to have nothing.
+
+Honest – no marketing fluff, no "enterprise-grade" nonsense. Just code that works.
+
+Unpolished but functional – it gets the job done. If you need a pretty UI, go somewhere else.
+
+### Why "Grindware"?
+Because that's what it is. Code written during the grind. During the late nights. During the 47th job rejection. During the moments when you realize that the system doesn't care about you, so you might as well build your own.
+
+Grindware is survival code.
+
+### Who is Grindware for?
+Developers who are tired of corporate BS
+
+Security researchers who need tools that actually work
+
+Anyone who believes software should be useful, not just profitable
+
+People who are also grinding
+
+### What Grindware is NOT
+Not a company
+
+Not a startup
+
+Not a product
+
+Not for sale
+
+Grindware is just code. From one unemployed developer to the world.
+
+### Support Grindware
+If you use Grindware, that's enough. If you want to support it, you can:
+
+⭐ Star the repository
+
+🐛 Report bugs
+
+🔧 Contribute code
+
+💬 Share it with someone who might need it
+
+### Contact
+I'm always open to work. If you need a developer who actually builds things, let's talk.
+
+Grindware – Built in the grind, released for free.
+
+## 📬 Contact
+
+For questions or inquiries regarding this dataset, please contact klaus@schloss-buskow.de
+
+---
+
+**Last Updated:** July 2026
+
+
 🙏 Contributing
 Pull requests and issues are welcome. If you find a bug or have a feature request, please open an issue.
 
